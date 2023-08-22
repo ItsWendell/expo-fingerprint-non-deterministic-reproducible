@@ -12,7 +12,8 @@
     "format": "prettier --check \"**/*.{js,cjs,mjs,ts,tsx,md,json}\"",
     "typecheck": "tsc --noEmit",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "fingerprint": "node ./fingerprint.mjs"
   },
   "dependencies": {
     "@expo/metro-config": "^0.10.7",
@@ -37,7 +38,6 @@
     "superjson": "1.13.1"
   },
   "devDependencies": {
-    "@acme/api": "^0.1.0",
     "@acme/eslint-config": "^0.2.0",
     "@acme/prettier-config": "^0.1.0",
     "@acme/tailwind-config": "^0.1.0",
@@ -46,6 +46,7 @@
     "@babel/preset-env": "^7.22.10",
     "@babel/runtime": "^7.22.10",
     "@expo/config-plugins": "^7.2.5",
+    "@expo/fingerprint": "^0.0.9",
     "@types/babel__core": "^7.20.1",
     "@types/react": "^18.2.20",
     "eslint": "^8.47.0",

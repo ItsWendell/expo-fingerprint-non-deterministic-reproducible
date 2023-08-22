@@ -36,7 +36,9 @@ const defineConfig = (): ExpoConfig => ({
     tsconfigPaths: true,
     typedRoutes: true,
   },
-  plugins: ["expo-router", "./expo-plugins/with-modify-gradle.js"],
+  // NOTE: This breaks when you have a relative config plugin path for fingerprinting
+  //plugins: ["expo-router", "./expo-plugins/with-modify-gradle.js"],
+  plugins: ["expo-router"],
 });
 
 export default defineConfig;

@@ -1,0 +1,327 @@
+{
+  "sources": [
+    {
+      "type": "file",
+      "filePath": "./assets/icon.png",
+      "reasons": [
+        "expoConfigExternalFile",
+        "expoConfigExternalFile",
+        "expoConfigExternalFile"
+      ],
+      "hash": "4649552f26ab7235b1dd3801a6e88178e39b563d"
+    },
+    {
+      "type": "file",
+      "filePath": "app.config.ts",
+      "reasons": [
+        "expoConfig"
+      ],
+      "hash": "da5eb63ca4b5495b648d92542720fedad7f9da55"
+    },
+    {
+      "type": "file",
+      "filePath": "eas.json",
+      "reasons": [
+        "easBuild"
+      ],
+      "hash": "547ce265aecb749dad82097c20d60acf36ddc347"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/@shopify/flash-list",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "5056afbfc3888c2d53cb2c17da43bcabe1b2bb03"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo",
+      "reasons": [
+        "expoAutolinkingIos",
+        "expoAutolinkingAndroid",
+        "bareRncliAutolinking"
+      ],
+      "hash": "d827dd86ee807a38700b6a66c6cc5774ef402e9d"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-application/android",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "be8d109b135f61fa71f1da96ac5ba93f9fa58402"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-application/ios",
+      "reasons": [
+        "expoAutolinkingIos"
+      ],
+      "hash": "3de7b752c04f3d08d10c9e51d37b678bf88e4f5b"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-constants/android",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "57930e64cb46b8a67cbb766b46ba0dc6d861be2d"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-constants/ios",
+      "reasons": [
+        "expoAutolinkingIos"
+      ],
+      "hash": "0f865899380a21ee56d2a8c1621ab637a5ef5312"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-file-system/android",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "df2735b3a9db34e68d881a1b5c0971176095c390"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-file-system/ios",
+      "reasons": [
+        "expoAutolinkingIos"
+      ],
+      "hash": "562d79906bd4acea70a40df24d693ead0513295a"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-font/android",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "b6734b75afdaf04de8a537e9a5e84e0ff4815375"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-font/ios",
+      "reasons": [
+        "expoAutolinkingIos"
+      ],
+      "hash": "05b33e553565f0eb8ba14446877067b41ffda1ee"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-head/ios",
+      "reasons": [
+        "expoAutolinkingIos"
+      ],
+      "hash": "6869840499e696e5b311594233baf26cabcbe20b"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-keep-awake/android",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "60354a65c47c14d7ac3f8647a656063a5f6e1527"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-keep-awake/ios",
+      "reasons": [
+        "expoAutolinkingIos"
+      ],
+      "hash": "22344911900a26790f70433d8c5274e57ff77b62"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-modules-core",
+      "reasons": [
+        "expoAutolinkingIos",
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "157221a58ae248109078cacb90eaf6b83c172bcd"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-modules-core/android-annotation",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "26f281ea4437881518ab1765ee155868eb0fd925"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-modules-core/android-annotation-processor",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "68630749c8b1c212ce1cdd8891a173a93d384f32"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-router",
+      "reasons": [
+        "expoConfigPlugins"
+      ],
+      "hash": "2158f5e7188f84e475bfa38596d811cda07f7610"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-splash-screen/android",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "6af80e577efabfb67159f3c1f1c8c294e46fbd9c"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/expo-splash-screen/ios",
+      "reasons": [
+        "expoAutolinkingIos"
+      ],
+      "hash": "9f4a6621281b0cee05fdd3f683f1d61d1eb110dd"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/react-native-gesture-handler",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "60537a11f57f476158492f5d3a271172b729972a"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/react-native-safe-area-context",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "0ccbb3a9f39dc1f172e4cc38065072b34423fb64"
+    },
+    {
+      "type": "dir",
+      "filePath": "../../node_modules/react-native-screens",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "1e546c564f621e46fcd43bb13e064fae9d37cbfc"
+    },
+    {
+      "type": "contents",
+      "id": "expoAutolinkingConfig:android",
+      "contents": "{\"extraDependencies\":{\"androidMavenRepos\":[],\"iosPods\":{}},\"modules\":[{\"packageName\":\"expo\",\"packageVersion\":\"49.0.7\",\"projects\":[{\"name\":\"expo\",\"sourceDir\":\"../../node_modules/expo/android\"}],\"modules\":[]},{\"packageName\":\"expo-application\",\"packageVersion\":\"5.3.0\",\"projects\":[{\"name\":\"expo-application\",\"sourceDir\":\"../../node_modules/expo-application/android\"}],\"modules\":[]},{\"packageName\":\"expo-constants\",\"packageVersion\":\"14.4.2\",\"projects\":[{\"name\":\"expo-constants\",\"sourceDir\":\"../../node_modules/expo-constants/android\"}],\"modules\":[\"expo.modules.constants.ConstantsModule\"]},{\"packageName\":\"expo-file-system\",\"packageVersion\":\"15.4.3\",\"projects\":[{\"name\":\"expo-file-system\",\"sourceDir\":\"../../node_modules/expo-file-system/android\"}],\"modules\":[\"expo.modules.filesystem.FileSystemModule\"]},{\"packageName\":\"expo-font\",\"packageVersion\":\"11.4.0\",\"projects\":[{\"name\":\"expo-font\",\"sourceDir\":\"../../node_modules/expo-font/android\"}],\"modules\":[]},{\"packageName\":\"expo-keep-awake\",\"packageVersion\":\"12.3.0\",\"projects\":[{\"name\":\"expo-keep-awake\",\"sourceDir\":\"../../node_modules/expo-keep-awake/android\"}],\"modules\":[]},{\"packageName\":\"expo-modules-core\",\"packageVersion\":\"1.5.9\",\"projects\":[{\"name\":\"expo-modules-core\",\"sourceDir\":\"../../node_modules/expo-modules-core/android\"},{\"name\":\"expo-modules-core$android-annotation\",\"sourceDir\":\"../../node_modules/expo-modules-core/android-annotation\"},{\"name\":\"expo-modules-core$android-annotation-processor\",\"sourceDir\":\"../../node_modules/expo-modules-core/android-annotation-processor\"}],\"modules\":[]},{\"packageName\":\"expo-splash-screen\",\"packageVersion\":\"0.20.5\",\"projects\":[{\"name\":\"expo-splash-screen\",\"sourceDir\":\"../../node_modules/expo-splash-screen/android\"}],\"modules\":[\"expo.modules.splashscreen.SplashScreenModule\"]}]}",
+      "reasons": [
+        "expoAutolinkingAndroid"
+      ],
+      "hash": "1f146ce0760f451f65844001ad5ad6f8e0da847f"
+    },
+    {
+      "type": "contents",
+      "id": "expoAutolinkingConfig:ios",
+      "contents": "{\"extraDependencies\":{\"androidMavenRepos\":[],\"iosPods\":{}},\"modules\":[{\"packageName\":\"expo\",\"packageVersion\":\"49.0.7\",\"pods\":[{\"podName\":\"Expo\",\"podspecDir\":\"../../node_modules/expo\"}],\"swiftModuleNames\":[\"Expo\"],\"modules\":[],\"appDelegateSubscribers\":[],\"reactDelegateHandlers\":[],\"debugOnly\":false},{\"packageName\":\"expo-application\",\"packageVersion\":\"5.3.0\",\"pods\":[{\"podName\":\"EXApplication\",\"podspecDir\":\"../../node_modules/expo-application/ios\"}],\"swiftModuleNames\":[\"EXApplication\"],\"modules\":[],\"appDelegateSubscribers\":[],\"reactDelegateHandlers\":[],\"debugOnly\":false},{\"packageName\":\"expo-constants\",\"packageVersion\":\"14.4.2\",\"pods\":[{\"podName\":\"EXConstants\",\"podspecDir\":\"../../node_modules/expo-constants/ios\"}],\"swiftModuleNames\":[\"EXConstants\"],\"modules\":[\"ConstantsModule\"],\"appDelegateSubscribers\":[],\"reactDelegateHandlers\":[],\"debugOnly\":false},{\"packageName\":\"expo-file-system\",\"packageVersion\":\"15.4.3\",\"pods\":[{\"podName\":\"EXFileSystem\",\"podspecDir\":\"../../node_modules/expo-file-system/ios\"}],\"swiftModuleNames\":[\"EXFileSystem\"],\"modules\":[],\"appDelegateSubscribers\":[],\"reactDelegateHandlers\":[],\"debugOnly\":false},{\"packageName\":\"expo-font\",\"packageVersion\":\"11.4.0\",\"pods\":[{\"podName\":\"EXFont\",\"podspecDir\":\"../../node_modules/expo-font/ios\"}],\"swiftModuleNames\":[\"EXFont\"],\"modules\":[],\"appDelegateSubscribers\":[],\"reactDelegateHandlers\":[],\"debugOnly\":false},{\"packageName\":\"expo-head\",\"packageVersion\":\"0.0.11\",\"pods\":[{\"podName\":\"ExpoHead\",\"podspecDir\":\"../../node_modules/expo-head/ios\"}],\"swiftModuleNames\":[\"ExpoHead\"],\"modules\":[\"ExpoHeadModule\"],\"appDelegateSubscribers\":[\"ExpoHeadAppDelegateSubscriber\"],\"reactDelegateHandlers\":[],\"debugOnly\":false},{\"packageName\":\"expo-keep-awake\",\"packageVersion\":\"12.3.0\",\"pods\":[{\"podName\":\"ExpoKeepAwake\",\"podspecDir\":\"../../node_modules/expo-keep-awake/ios\"}],\"swiftModuleNames\":[\"ExpoKeepAwake\"],\"modules\":[\"KeepAwakeModule\"],\"appDelegateSubscribers\":[],\"reactDelegateHandlers\":[],\"debugOnly\":false},{\"packageName\":\"expo-modules-core\",\"packageVersion\":\"1.5.9\",\"pods\":[{\"podName\":\"ExpoModulesCore\",\"podspecDir\":\"../../node_modules/expo-modules-core\"}],\"swiftModuleNames\":[\"ExpoModulesCore\"],\"modules\":[],\"appDelegateSubscribers\":[],\"reactDelegateHandlers\":[],\"debugOnly\":false},{\"packageName\":\"expo-splash-screen\",\"packageVersion\":\"0.20.5\",\"pods\":[{\"podName\":\"EXSplashScreen\",\"podspecDir\":\"../../node_modules/expo-splash-screen/ios\"}],\"swiftModuleNames\":[\"EXSplashScreen\"],\"modules\":[],\"appDelegateSubscribers\":[],\"reactDelegateHandlers\":[],\"debugOnly\":false}]}",
+      "reasons": [
+        "expoAutolinkingIos"
+      ],
+      "hash": "e2355384549ad1043564eb3a41f9e926eb284c59"
+    },
+    {
+      "type": "contents",
+      "id": "packageJson:scripts",
+      "contents": "{\"clean\":\"git clean -xdf .expo .turbo node_modules\",\"dev\":\"expo start --ios\",\"dev:android\":\"expo start --android\",\"dev:ios\":\"expo start --ios\",\"lint\":\"eslint .\",\"format\":\"prettier --check \\\"**/*.{js,cjs,mjs,ts,tsx,md,json}\\\"\",\"typecheck\":\"tsc --noEmit\",\"android\":\"expo run:android\",\"ios\":\"expo run:ios\",\"fingerprint\":\"node ./fingerprint.mjs\"}",
+      "reasons": [
+        "packageJson:scripts"
+      ],
+      "hash": "399ad766eac233d6221912bd15cd101e09737487"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:@shopify/flash-list:android",
+      "contents": "{\"sourceDir\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/@shopify/flash-list/android\",\"packageImportPath\":\"import com.shopify.reactnative.flash_list.ReactNativeFlashListPackage;\",\"packageInstance\":\"new ReactNativeFlashListPackage()\",\"buildTypes\":[],\"componentDescriptors\":[],\"cmakeListsPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/CMakeLists.txt\"}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "b966e94ae0432e5139665697eb1cc96701be1558"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:@shopify/flash-list:ios",
+      "contents": "{\"podspecPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/@shopify/flash-list/RNFlashList.podspec\",\"configurations\":[],\"scriptPhases\":[]}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "2830367901be33c31f9bab5c461c876a63633998"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:expo:android",
+      "contents": "{\"sourceDir\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/expo/android\",\"packageImportPath\":\"import expo.modules.ExpoModulesPackage;\",\"packageInstance\":\"new ExpoModulesPackage()\",\"buildTypes\":[],\"componentDescriptors\":[],\"cmakeListsPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/expo/android/build/generated/source/codegen/jni/CMakeLists.txt\"}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "36685e82afaccc32eb1645b50a20293bfdfe2336"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:expo:ios",
+      "contents": "{\"podspecPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/expo/Expo.podspec\",\"configurations\":[],\"scriptPhases\":[]}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "39be8a2ff875fdcae45d2685b3f9833a777b61de"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:react-native-gesture-handler:android",
+      "contents": "{\"sourceDir\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-gesture-handler/android\",\"packageImportPath\":\"import com.swmansion.gesturehandler.RNGestureHandlerPackage;\",\"packageInstance\":\"new RNGestureHandlerPackage()\",\"buildTypes\":[],\"libraryName\":\"rngesturehandler_codegen\",\"componentDescriptors\":[\"RNGestureHandlerButtonComponentDescriptor\",\"RNGestureHandlerRootViewComponentDescriptor\"],\"cmakeListsPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt\"}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "f03f242a76e052835fbe07a11328103d65ecd210"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:react-native-gesture-handler:ios",
+      "contents": "{\"podspecPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-gesture-handler/RNGestureHandler.podspec\",\"configurations\":[],\"scriptPhases\":[]}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "c6e1d8ab2bd1f019cc3cb1ef2df6711a47491159"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:react-native-safe-area-context:android",
+      "contents": "{\"sourceDir\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-safe-area-context/android\",\"packageImportPath\":\"import com.th3rdwave.safeareacontext.SafeAreaContextPackage;\",\"packageInstance\":\"new SafeAreaContextPackage()\",\"buildTypes\":[],\"libraryName\":\"safeareacontext\",\"componentDescriptors\":[\"RNCSafeAreaProviderComponentDescriptor\",\"RNCSafeAreaViewComponentDescriptor\"],\"cmakeListsPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt\"}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "9bdcb43290981e6b3fc85487263437f6c9d73aa8"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:react-native-safe-area-context:ios",
+      "contents": "{\"podspecPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec\",\"configurations\":[],\"scriptPhases\":[]}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "60ad97a771c63a00074a5b825304f266ddcd0aec"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:react-native-screens:android",
+      "contents": "{\"sourceDir\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-screens/android\",\"packageImportPath\":\"import com.swmansion.rnscreens.RNScreensPackage;\",\"packageInstance\":\"new RNScreensPackage()\",\"buildTypes\":[],\"libraryName\":\"rnscreens\",\"componentDescriptors\":[\"RNSFullWindowOverlayComponentDescriptor\",\"RNSScreenContainerComponentDescriptor\",\"RNSScreenNavigationContainerComponentDescriptor\",\"RNSScreenStackHeaderConfigComponentDescriptor\",\"RNSScreenStackHeaderSubviewComponentDescriptor\",\"RNSScreenStackComponentDescriptor\",\"RNSSearchBarComponentDescriptor\",\"RNSScreenComponentDescriptor\"],\"cmakeListsPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt\"}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "28f87aa9d2cf509bfe5146226021686399223bff"
+    },
+    {
+      "type": "contents",
+      "id": "rncliAutolinkingConfig:react-native-screens:ios",
+      "contents": "{\"podspecPath\":\"/home/wmisiedjan/Projects/itswendell/fingerprint-test/node_modules/react-native-screens/RNScreens.podspec\",\"configurations\":[],\"scriptPhases\":[]}",
+      "reasons": [
+        "bareRncliAutolinking"
+      ],
+      "hash": "61c3fbaa66aa92b150d955373de748968dd9dc97"
+    }
+  ],
+  "hash": "6c9cbf91d282dde0883200e703382612f0bd4c0e"
+}
