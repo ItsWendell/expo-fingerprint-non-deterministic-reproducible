@@ -10,8 +10,8 @@ To run fingerprinting in this repository:
 
 This starts a script that runs the fingerprint package, writes the output to the fingerprint.json file, and outputs the diff between the previous version.
 
-## Relative plugin paths in app config
-Having an relative plugin path results in the following diff being non-deterministic:
+## Issue 1: Relative config plugin paths in app config
+Having an relative plugin path results in the following diff always being non-deterministic:
 
 ```json
 [
@@ -28,15 +28,14 @@ Having an relative plugin path results in the following diff being non-determini
 ]
 ```
 
-To reproduce this, in `apps/expo/app.config.ts` add and remove `plugins: ["expo-router", "./expo-plugins/with-modify-gradle.js"]`, and run pnpm fingerprint in this folder multiple times.
+To reproduce this, in `apps/expo/app.config.ts` add / remove `plugins: ["expo-router", "./expo-plugins/with-modify-gradle.js"]`, and run `pnpm fingerprint`` in this folder multiple times.
 
-## androidAutoLinking
+## Issue 2: androidAutoLinking / expo-modules-autolinking
 
-Now, if we remove this relative plugin path, and run `pnpm fingerprint` multiple times, it results in the following issue with `expoAutolinkingAndroid`.
+Now, if we remove this relative plugin path, and run `pnpm fingerprint` multiple times, it results in the following issue with `expoAutolinkingAndroid`, here's the output I get:
 
- - 5 good, non-changed hashes
-
-### Failed run 1
+1. A couple (4/5) non-diff `[]` outputs
+2. The following diff:
 ```json
 [
   {
@@ -50,10 +49,8 @@ Now, if we remove this relative plugin path, and run `pnpm fingerprint` multiple
   }
 ]
 ```
-
- - 5 good hashes, unchanged
-
-### Failed run 2
+3. A couple of non-diff outputs (4/5) `[]`
+4. Another diff output with the following
 ```json
 [
   {
@@ -75,9 +72,8 @@ Now, if we remove this relative plugin path, and run `pnpm fingerprint` multiple
   }
 ]
 ```
-
- - 6 good hashes, unchanged
-
+5. A couple of non-diff outputs `[]`
+6. Another 'failed' run with the following diff:
 ```json
 [
   {
@@ -99,3 +95,5 @@ Now, if we remove this relative plugin path, and run `pnpm fingerprint` multiple
   }
 ]
 ```
+
+Diving deeper, it seems that the CLI tool for `expo-modules-autolinking` might be causing this, since this is where it is fetching this information.
