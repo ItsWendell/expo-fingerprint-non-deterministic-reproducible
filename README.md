@@ -1,4 +1,14 @@
-The package `@expo/fingerprint` is supposed to create a deterministic fingerprint of an Expo project. I was attempting to use this to fingerprint my runtime version, but ran into two issues.
+# Non-deterministic `@expo/fingerprint`
+
+The package `@expo/fingerprint` is supposed to create a deterministic fingerprint of an Expo project. I was attempting to use this to fingerprint the runtime version, but ran into two issues.
+
+To run fingerprinting in this repository:
+
+1. Install packages: `pnpm install`
+2. Open your terminal in the `apps/expo` folder
+3. Run `pnpm fingerprint`
+
+This starts a script that runs the fingerprint package, writes the output to the fingerprint.json file, and outputs the diff between the previous version.
 
 ## Relative plugin paths in app config
 Having an relative plugin path results in the following diff being non-deterministic:
