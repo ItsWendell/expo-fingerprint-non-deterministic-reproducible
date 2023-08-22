@@ -1,3 +1,10 @@
+### Minimal reproducible example
+
+https://github.com/ItsWendell/expo-fingerprint-non-deterministic-reproducible
+
+### Summary
+Github Issue: https://github.com/expo/expo/issues/24069
+
 # Non-deterministic `@expo/fingerprint`
 
 The package `@expo/fingerprint` is supposed to create a deterministic fingerprint of an Expo project. I was attempting to use this to fingerprint the runtime version, but ran into two issues.
@@ -97,3 +104,20 @@ Now, if we remove this relative plugin path, and run `pnpm fingerprint` multiple
 ```
 
 Diving deeper, it seems that the CLI tool for `expo-modules-autolinking` might be causing this, since this is where it is fetching this information.
+
+### Environment
+
+```
+    System:
+      OS: Linux 6.4 Fedora Linux 38 (Workstation Edition)
+      Shell: 5.9 - /usr/bin/zsh
+    Binaries:
+      Node: 18.17.1 - /usr/bin/node
+      npm: 9.6.7 - /usr/bin/npm
+    SDKs:
+      Android SDK:
+        API Levels: 30, 31, 32, 33
+        Build Tools: 30.0.2, 30.0.3, 31.0.0, 32.0.0, 33.0.0, 33.0.2, 34.0.0
+        System Images: android-21 | Intel x86 Atom, android-21 | Google APIs Intel x86 Atom, android-24 | Google APIs Intel x86 Atom, android-24 | Google Play Intel x86 Atom, android-27 | Google APIs Intel x86 Atom, android-27 | Google Play Intel x86 Atom, android-28 | Google APIs Intel x86 Atom, android-28 | Google APIs Intel x86 Atom_64, android-28 | Google Play Intel x86 Atom_64, android-29 | Android TV Intel x86 Atom, android-29 | Google Play Intel x86 Atom, android-29 | Google Play Intel x86 Atom_64, android-30 | Google APIs Intel x86 Atom_64, android-30 | Google Play Intel x86 Atom, android-30 | Google Play Intel x86 Atom_64, android-30 | Google APIs ATD Intel x86 Atom, android-31 | Google APIs Intel x86_64 Atom, android-31 | Google Play Intel x86 Atom_64, android-32 | Google APIs Intel x86_64 Atom, android-32 | Google Play Intel x86 Atom_64, android-33 | Google APIs Intel x86_64 Atom, android-33 | Google Play Intel x86 Atom_64
+    Expo Workflow: managed
+```
